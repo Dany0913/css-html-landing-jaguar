@@ -1,0 +1,45 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+.div-text {
+  float: left;
+  margin: 5%;
+  background-color: rgb(48, 48, 48, 0.9);
+  border-radius: 10px;
+  max-width: 600px;
+  color: white;
+  padding: 0 20px 20px 20px;
+  z-index: 1;
+}
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+.btn-link {
+  text-decoration: none;
+  color: white;
+  background-color: #db3030;
+  width: 180px;
+  height: 40px;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.background {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  z-index: -1;
+}
+.background img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%;
+}
